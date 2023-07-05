@@ -26,4 +26,8 @@ router.get('/b3', function(req, res, next) {
   res.render('b3');
 });
 
+router.get('/contact', function(req, res, next) {
+  res.render('contact');
+});
+
 module.exports = router;
